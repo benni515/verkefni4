@@ -1,7 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto+Slab:300,700);
 
 body {
-    margin: 0 auto;
+    margin: 3.5em auto 0 auto;
     font-size: .9em;
     line-height: 1.2em;
 }
@@ -30,7 +30,7 @@ p {
     padding:1em;
 }
 /*--------------------
-    border-box
+    Grid colors
 --------------------*/
 .pure-g div, 
 .pure-g article,
@@ -40,7 +40,7 @@ p {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 
-    border: 0px dotted rgb(255,195,13);
+    border: 1px dotted rgb(255,195,13);
 }
 /*--------------------
     tables
@@ -141,8 +141,6 @@ figcaption {
         max-width: 80em;  
     }
 }
-/*      Vistvæn prentun        */
-
 @media print {
     *.{
         color:black;
